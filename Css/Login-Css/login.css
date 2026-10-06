@@ -1,6 +1,4 @@
-#form-content-wrapper {
-    width: 60vw;
-    float: left;
+#wrapper{
     margin: 0 auto;
     min-height: 100vh;
     display: flex;
@@ -9,7 +7,7 @@
     background-color: lightgrey;
 }
 
-.Login-container {
+.Login-container{
     background-color: white;
     height: 75vh;
     width: 80vw;
@@ -17,7 +15,7 @@
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
 }
 
-h1 {
+h1{
     padding-left: 80px;
     padding-top: 20px;
     font-size: 80px;
@@ -26,8 +24,8 @@ h1 {
     font-weight: normal;
 }
 
-.form-group {
-    margin: 0;
+.form-group{
+    margin:0;
     padding-top: 10px;
     padding-left: 50px;
     font-size: 20px;
@@ -36,26 +34,25 @@ h1 {
     font-weight: bold;
 }
 
-.label {
+.label{
     display: block;
     padding-left: 50px;
     font-size: 20px;
     margin-bottom: 10px;
 }
 
-input {
+input{
     width: 40%;
     height: 60px;
     padding: 10px 15px;
     font-size: 25px;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 10px; 
     border-width: 2px;
     margin: 0;
 }
 
-.register-btn,
-input[type="submit"] {
+.register-btn, input[type="submit"]{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +67,7 @@ input[type="submit"] {
     font-family: Etna, sans-serif;
 }
 
-.input-icon {
+.input-icon{
     position: absolute;
     left: 38%;
     top: 40px;
@@ -78,7 +75,7 @@ input[type="submit"] {
     height: 50px;
 }
 
-.Email-icon {
+.Email-icon{
     position: absolute;
     left: 38%;
     top: 144px;
@@ -86,7 +83,7 @@ input[type="submit"] {
     height: 50px;
 }
 
-.lock-icon {
+.lock-icon{
     position: absolute;
     left: 38%;
     top: 250px;
@@ -94,7 +91,7 @@ input[type="submit"] {
     height: 50px;
 }
 
-h6 {
+h6{
     margin: 0;
     padding-left: 7.5%;
     font-size: 25px;
@@ -102,7 +99,7 @@ h6 {
     font-weight: normal;
 }
 
-.social-container {
+.social-container{
     display: flex;
     gap: 15px;
     margin: 0;
@@ -110,29 +107,26 @@ h6 {
     margin-top: 20px;
 }
 
-.social-icon {
+.social-icon{
     height: 70px;
     width: 70px;
     border-radius: 25%;
     margin: 0;
     position: relative;
     right: 4%;
-    padding-top: 5px;
-    cursor: pointer;
+    padding-top: 5px;    
+    cursor: pointer; 
 }
 
-#within-container {
+#within-container{
     background-color: rgb(58, 164, 200);
     height: 75vh;
     width: 40vw;
     border-radius: 25px;
     float: right;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-#within-container h2 {
+#within-container h2{
     margin: 0;
     font-size: 50px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -140,18 +134,21 @@ h6 {
     padding-top: 45%;
 }
 
-#within-container p {
+#within-container p{
     margin: 0;
     width: 100%;
     text-align: center;
-    font-size: 25px;
+    font-size: 25px; 
     display: block;
 }
 
-button.login, input[type="submit"] {
-    height: 60px;
-    cursor: pointer;
-    background-color: greenyellow;
-    border-radius: 10px;
-    border: none;
-}
+button.login{
+   display: block;
+   cursor: pointer;
+   margin: 15px auto 0 auto;
+   z-index: 10;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 100%;
+   max-width: 300px;
+   padding: 12px 20px;box-sizing: border-box;
+ }
