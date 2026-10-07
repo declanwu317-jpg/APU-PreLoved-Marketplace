@@ -1,0 +1,184 @@
+#wrapper{
+    display: flex;
+    margin: 0 auto;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+}
+
+.card-container{
+    background-color: white;
+    min-height: 85vh;
+    height: 82vh;
+    width: 80vw;
+    border-radius: 25px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+#RHS-container{
+    height: 85vh;
+    width: 40vw;
+    border-radius: 25px;
+    float: left;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#RHS-container::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-image: url('../../Videos/GIF/APU-environment.gif');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    opacity: 0.455;
+    z-index: -1;
+}
+
+#RHS-container h1{
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#RHS-container p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+.register-btn, button[type="submit"]{
+    margin:15px auto 0 auto;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 38.3%;
+    cursor: pointer;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#LHS-container{
+    margin: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#LHS-container h1{
+    margin: 0;
+    margin: 10px;
+    font-size: 65px;
+    align-items: center;
+    margin-right: 14.5%;
+}
+
+.forms-group{
+    margin-left: 52%;
+    position: relative;
+}
+
+.forms-group label{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.forms-group input{
+    width: 85%;
+    height: 60px;
+    padding: 10px 60px 10px 15px;
+    font-size: 25px;
+    box-sizing: border-box;
+    border-radius: 10px; 
+    border-width: 2px;
+    margin: 0 0 20px 0;
+    position: relative;
+}
+
+.user-icon, .lock-icon{
+    position: absolute;
+    right: calc(15% + 15px);
+    justify-content: center;
+    height: 65px;
+    width: 50px;
+}
+/* ----------------------------------- */
+/* COPY AND PASTED FROM AI */
+#login-btn {
+    width: 85%;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#login-btn button{
+    background-color:black;
+    color: white;
+    margin-top: -15px;
+    text-align:center;
+}
+
+#login-btn button input[type="submit"] {
+    width: 100%;
+    margin: 0;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* ----------------------------------- */
+
+.forms-group p{
+    text-align: center;
+    margin-right: 15%;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.social-container-login{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-right: 12.5%;
+}
+
+.social-icon-login{
+    height: 50px;
+    width: 50px;
+    border-radius: 25%;
+    margin: 0;
+    position: relative;
+    right: 0;
+    padding-top: 5px;    
+    cursor: pointer; 
+}
